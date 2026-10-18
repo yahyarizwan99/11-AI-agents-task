@@ -1,0 +1,60 @@
+[
+  {
+    "line_id": "L1",
+    "decision": "approved",
+    "policy_refs": [
+      "MEALS-1",
+      "RECEIPT-1",
+      "RECEIPT-2"
+    ],
+    "reason": "all checks passed",
+    "decided_by": "rules",
+    "at": "2026-10-18T14:40:23.232717"
+  },
+  {
+    "line_id": "L2",
+    "decision": "approved",
+    "policy_refs": [
+      "HOTEL-1",
+      "RECEIPT-1",
+      "RECEIPT-2"
+    ],
+    "reason": "amount 640.0 exceeds auto-approval limit 500; hotel 320.00 vs limit 300",
+    "decided_by": "M-77",
+    "at": "2026-10-18T14:40:23.318245"
+  },
+  {
+    "line_id": "L3",
+    "decision": "rejected",
+    "policy_refs": [
+      "TRAVEL-3"
+    ],
+    "reason": "weekend travel without a note",
+    "decided_by": "rules",
+    "at": "2026-10-18T14:40:23.232739"
+  },
+  {
+    "line_id": "L4",
+    "decision": "approved",
+    "policy_refs": [
+      "RECEIPT-1",
+      "RECEIPT-2",
+      "SOFT-1"
+    ],
+    "reason": "all checks passed",
+    "decided_by": "rules",
+    "at": "2026-10-18T14:40:23.232743"
+  },
+  {
+    "line_id": "L5",
+    "decision": "approved",
+    "policy_refs": [
+      "MEALS-1",
+      "RECEIPT-1",
+      "RECEIPT-2"
+    ],
+    "reason": "same merchant/amount within 7 days of PRIOR-L9; receipt unreadable (OCR failed)",
+    "decided_by": "M-77",
+    "at": "2026-10-18T14:40:23.318261"
+  }
+]
